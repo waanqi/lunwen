@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2140" viewBox="0 0 1600 2140">
+  <title>基于刚柔耦合Kresling结构的健—患侧联动控制模块化假肢腕部系统研究框架</title>
+  <desc>三栏式纵向研究框架图，左侧为研究框架，中间为研究内容，右侧为阶段目标。</desc>
+  <defs>
+    <style>
+      .t{font-family:"Microsoft YaHei","Noto Sans CJK SC",Arial,sans-serif;fill:#1d1d1d}
+      .h{font-size:30px;font-weight:700}.s{font-size:21px}.m{font-size:23px;font-weight:600}.b{font-size:24px;font-weight:600}
+      .box{fill:#fff;stroke:#202020;stroke-width:2}.bar{fill:#bec2c6;stroke:#202020;stroke-width:2}.goal{fill:#f0f3f9;stroke:#202020;stroke-width:2}
+      .line{fill:none;stroke:#202020;stroke-width:2}.dash{fill:none;stroke:#202020;stroke-width:3;stroke-dasharray:7 8}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M1,1 L11,6 L1,11" fill="none" stroke="#202020" stroke-width="1.8"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="2140" fill="#ffffff"/>
+
+  <!-- Three column headers -->
+  <rect x="55" y="28" width="220" height="56" rx="28" class="bar"/>
+  <text x="165" y="66" text-anchor="middle" class="t h">研究框架</text>
+  <rect x="690" y="28" width="220" height="56" rx="28" class="bar"/>
+  <text x="800" y="66" text-anchor="middle" class="t h">研究内容</text>
+  <rect x="1300" y="28" width="220" height="56" rx="28" class="bar"/>
+  <text x="1410" y="66" text-anchor="middle" class="t h">阶段目标</text>
+  <path d="M330 98 V2105" class="dash"/>
+  <path d="M1210 98 V2105" class="dash"/>
+
+  <!-- Left: research framework -->
+  <rect x="50" y="120" width="230" height="185" class="box"/>
+  <text x="165" y="205" text-anchor="middle" class="t b"><tspan x="165">研究背景与</tspan><tspan x="165" dy="38">问题提出</tspan></text>
+  <path d="M165 305 V345" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="50" y="350" width="230" height="200" class="box"/>
+  <text x="165" y="438" text-anchor="middle" class="t b"><tspan x="165">理论基础与</tspan><tspan x="165" dy="38">研究现状</tspan></text>
+  <path d="M165 550 V590" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="50" y="595" width="230" height="260" class="box"/>
+  <text x="165" y="705" text-anchor="middle" class="t b"><tspan x="165">用户需求</tspan><tspan x="165" dy="38">研究与</tspan><tspan x="165" dy="38">设计策略</tspan></text>
+  <path d="M165 855 V895" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="50" y="900" width="230" height="260" class="box"/>
+  <text x="165" y="1008" text-anchor="middle" class="t b"><tspan x="165">刚柔耦合</tspan><tspan x="165" dy="38">Kresling 腕关节</tspan><tspan x="165" dy="38">设计</tspan></text>
+  <path d="M165 1160 V1200" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="50" y="1205" width="230" height="390" class="box"/>
+  <text x="165" y="1372" text-anchor="middle" class="t b"><tspan x="165">健—患侧联动控制</tspan><tspan x="165" dy="38">模块化假肢</tspan><tspan x="165" dy="38">腕部系统设计</tspan></text>
+  <path d="M165 1595 V1635" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="50" y="1640" width="230" height="240" class="box"/>
+  <text x="165" y="1745" text-anchor="middle" class="t b"><tspan x="165">系统评价与</tspan><tspan x="165" dy="38">结果分析</tspan></text>
+  <path d="M165 1880 V1920" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="50" y="1925" width="230" height="160" class="box"/>
+  <text x="165" y="1995" text-anchor="middle" class="t b"><tspan x="165">总结与</tspan><tspan x="165" dy="38">展望</tspan></text>
+
+  <!-- Center row 1 -->
+  <rect x="380" y="120" width="780" height="55" rx="5" class="bar"/>
+  <text x="770" y="157" text-anchor="middle" class="t m">第一章　研究背景与问题界定</text>
+  <rect x="380" y="190" width="245" height="92" rx="5" class="box"/>
+  <text x="502" y="229" text-anchor="middle" class="t s"><tspan x="502">研究背景及</tspan><tspan x="502" dy="30">选题来源</tspan></text>
+  <rect x="647" y="190" width="245" height="92" rx="5" class="box"/>
+  <text x="769" y="229" text-anchor="middle" class="t s"><tspan x="769">假肢腕部的</tspan><tspan x="769" dy="30">现实问题</tspan></text>
+  <rect x="914" y="190" width="246" height="92" rx="5" class="box"/>
+  <text x="1037" y="229" text-anchor="middle" class="t s"><tspan x="1037">研究目的、创新点</tspan><tspan x="1037" dy="30">难题与研究框架</tspan></text>
+  <path d="M625 236 H642" class="line" marker-end="url(#arrow)"/>
+  <path d="M892 236 H909" class="line" marker-end="url(#arrow)"/>
+
+  <!-- Center row 2 -->
+  <rect x="380" y="350" width="780" height="55" rx="5" class="bar"/>
+  <text x="770" y="387" text-anchor="middle" class="t m">第二章　相关理论与研究现状</text>
+  <rect x="380" y="422" width="370" height="55" rx="5" class="box"/>
+  <text x="565" y="458" text-anchor="middle" class="t s">假肢腕关节设计研究</text>
+  <rect x="790" y="422" width="370" height="55" rx="5" class="box"/>
+  <text x="975" y="458" text-anchor="middle" class="t s">Kresling 与刚柔耦合结构</text>
+  <rect x="380" y="492" width="370" height="55" rx="5" class="box"/>
+  <text x="565" y="528" text-anchor="middle" class="t s">模块化末端工具研究</text>
+  <rect x="790" y="492" width="370" height="55" rx="5" class="box"/>
+  <text x="975" y="528" text-anchor="middle" class="t s">健—患侧联动控制方式研究</text>
+
+  <!-- Center row 3 -->
+  <rect x="380" y="595" width="780" height="55" rx="5" class="bar"/>
+  <text x="770" y="632" text-anchor="middle" class="t m">第三章　用户需求与系统设计策略</text>
+  <rect x="380" y="668" width="245" height="118" rx="5" class="box"/>
+  <text x="502" y="705" text-anchor="middle" class="t s"><tspan x="502">用户调研</tspan><tspan x="502" dy="30">访谈、观察</tspan><tspan x="502" dy="30">典型任务</tspan></text>
+  <rect x="647" y="668" width="245" height="118" rx="5" class="box"/>
+  <text x="769" y="705" text-anchor="middle" class="t s"><tspan x="769">需求分析</tspan><tspan x="769" dy="30">用户旅程</tspan><tspan x="769" dy="30">优先级评价</tspan></text>
+  <rect x="914" y="668" width="246" height="118" rx="5" class="box"/>
+  <text x="1037" y="705" text-anchor="middle" class="t s"><tspan x="1037">设计转译</tspan><tspan x="1037" dy="30">系统定位</tspan><tspan x="1037" dy="30">设计策略</tspan></text>
+  <path d="M625 727 H642" class="line" marker-end="url(#arrow)"/>
+  <path d="M892 727 H909" class="line" marker-end="url(#arrow)"/>
+  <rect x="380" y="802" width="780" height="53" rx="5" class="box"/>
+  <text x="770" y="837" text-anchor="middle" class="t s">形成“结构—模块—交互”三层系统设计要素</text>
+
+  <!-- Center row 4 -->
+  <rect x="380" y="900" width="780" height="55" rx="5" class="bar"/>
+  <text x="770" y="937" text-anchor="middle" class="t m">第四章　刚柔耦合 Kresling 腕关节设计</text>
+  <rect x="380" y="974" width="245" height="118" rx="5" class="box"/>
+  <text x="502" y="1012" text-anchor="middle" class="t s"><tspan x="502">构型设计</tspan><tspan x="502" dy="30">刚性杆件</tspan><tspan x="502" dy="30">活动底边</tspan></text>
+  <rect x="647" y="974" width="245" height="118" rx="5" class="box"/>
+  <text x="769" y="1012" text-anchor="middle" class="t s"><tspan x="769">运动设计</tspan><tspan x="769" dy="30">相反手性折纸层</tspan><tspan x="769" dy="30">模式与绳驱关系</tspan></text>
+  <rect x="914" y="974" width="246" height="118" rx="5" class="box"/>
+  <text x="1037" y="1012" text-anchor="middle" class="t s"><tspan x="1037">原型验证</tspan><tspan x="1037" dy="30">样机制作</tspan><tspan x="1037" dy="30">基础功能测试</tspan></text>
+  <path d="M625 1033 H642" class="line" marker-end="url(#arrow)"/>
+  <path d="M892 1033 H909" class="line" marker-end="url(#arrow)"/>
+  <rect x="380" y="1105" width="780" height="55" rx="5" class="box"/>
+  <text x="770" y="1142" text-anchor="middle" class="t s">输出：运动模式可切换的刚柔耦合 Kresling 腕关节</text>
+
+  <!-- Center row 5 -->
+  <rect x="380" y="1205" width="780" height="55" rx="5" class="bar"/>
+  <text x="770" y="1242" text-anchor="middle" class="t m">第五章　健—患侧联动控制的模块化假肢腕部系统设计与评价</text>
+  <rect x="380" y="1280" width="245" height="215" rx="5" class="box"/>
+  <text x="502" y="1320" text-anchor="middle" class="t m">手势分类控制</text>
+  <path d="M402 1340 H603" class="line"/>
+  <text x="502" y="1383" text-anchor="middle" class="t s"><tspan x="502">健侧手势信号采集</tspan><tspan x="502" dy="36">预处理与特征处理</tspan><tspan x="502" dy="36">手势分类与指令映射</tspan></text>
+  <rect x="647" y="1280" width="245" height="215" rx="5" class="box"/>
+  <text x="769" y="1320" text-anchor="middle" class="t m">模块化工具</text>
+  <path d="M669 1340 H870" class="line"/>
+  <text x="769" y="1383" text-anchor="middle" class="t s"><tspan x="769">统一连接接口</tspan><tspan x="769" dy="36">假肢手掌／夹具</tspan><tspan x="769" dy="36">其他专用工具头</tspan></text>
+  <rect x="914" y="1280" width="246" height="215" rx="5" class="box"/>
+  <text x="1037" y="1320" text-anchor="middle" class="t m">系统整合</text>
+  <path d="M936 1340 H1138" class="line"/>
+  <text x="1037" y="1383" text-anchor="middle" class="t s"><tspan x="1037">控制映射与逻辑</tspan><tspan x="1037" dy="36">软硬件系统集成</tspan><tspan x="1037" dy="36">整机原型实现</tspan></text>
+  <path d="M625 1388 H642" class="line" marker-end="url(#arrow)"/>
+  <path d="M892 1388 H909" class="line" marker-end="url(#arrow)"/>
+  <rect x="380" y="1512" width="780" height="83" rx="5" class="box"/>
+  <text x="770" y="1546" text-anchor="middle" class="t s"><tspan x="770">三项创新协同：刚柔耦合结构创新　＋　末端工具模块创新</tspan><tspan x="770" dy="31">＋　基于手势分类的健—患侧联动控制创新</tspan></text>
+
+  <!-- Center row 6 -->
+  <rect x="380" y="1640" width="780" height="55" rx="5" class="bar"/>
+  <text x="770" y="1677" text-anchor="middle" class="t m">系统评价与结果分析</text>
+  <rect x="380" y="1715" width="245" height="105" rx="5" class="box"/>
+  <text x="502" y="1754" text-anchor="middle" class="t s"><tspan x="502">结构与功能测试</tspan><tspan x="502" dy="32">运动、负载、换装</tspan></text>
+  <rect x="647" y="1715" width="245" height="105" rx="5" class="box"/>
+  <text x="769" y="1754" text-anchor="middle" class="t s"><tspan x="769">ADL 任务评价</tspan><tspan x="769" dy="32">典型日常活动</tspan></text>
+  <rect x="914" y="1715" width="246" height="105" rx="5" class="box"/>
+  <text x="1037" y="1754" text-anchor="middle" class="t s"><tspan x="1037">用户主观评价</tspan><tspan x="1037" dy="32">可用性与体验</tspan></text>
+  <rect x="380" y="1835" width="780" height="45" rx="5" class="box"/>
+  <text x="770" y="1866" text-anchor="middle" class="t s">综合验证系统的有效性、适配性与设计价值</text>
+
+  <!-- Center row 7 -->
+  <rect x="380" y="1925" width="780" height="55" rx="5" class="bar"/>
+  <text x="770" y="1962" text-anchor="middle" class="t m">第六章　总结与展望</text>
+  <rect x="380" y="1995" width="245" height="70" rx="5" class="box"/>
+  <text x="502" y="2039" text-anchor="middle" class="t s">研究成果与结论</text>
+  <rect x="647" y="1995" width="245" height="70" rx="5" class="box"/>
+  <text x="769" y="2039" text-anchor="middle" class="t s">创新点归纳与讨论</text>
+  <rect x="914" y="1995" width="246" height="70" rx="5" class="box"/>
+  <text x="1037" y="2039" text-anchor="middle" class="t s">局限与后续展望</text>
+
+  <!-- Right: stage goals -->
+  <rect x="1260" y="145" width="290" height="130" class="goal"/>
+  <text x="1405" y="201" text-anchor="middle" class="t s"><tspan x="1405">明确研究目的、</tspan><tspan x="1405" dy="34">难题与总体路线</tspan></text>
+  <path d="M1405 275 V370" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="1260" y="380" width="290" height="130" class="goal"/>
+  <text x="1405" y="436" text-anchor="middle" class="t s"><tspan x="1405">明确研究空白</tspan><tspan x="1405" dy="34">与设计机会</tspan></text>
+  <path d="M1405 510 V620" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="1260" y="630" width="290" height="150" class="goal"/>
+  <text x="1405" y="686" text-anchor="middle" class="t s"><tspan x="1405">提取用户需求，</tspan><tspan x="1405" dy="34">形成系统设计策略</tspan><tspan x="1405" dy="34">与评价依据</tspan></text>
+  <path d="M1405 780 V920" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="1260" y="930" width="290" height="150" class="goal"/>
+  <text x="1405" y="986" text-anchor="middle" class="t s"><tspan x="1405">完成核心腕关节</tspan><tspan x="1405" dy="34">结构原型与</tspan><tspan x="1405" dy="34">功能验证</tspan></text>
+  <path d="M1405 1080 V1255" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="1260" y="1265" width="290" height="170" class="goal"/>
+  <text x="1405" y="1320" text-anchor="middle" class="t s"><tspan x="1405">完成健—患侧控制、</tspan><tspan x="1405" dy="34">模块化工具与</tspan><tspan x="1405" dy="34">整机原型设计</tspan></text>
+  <path d="M1405 1435 V1665" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="1260" y="1675" width="290" height="150" class="goal"/>
+  <text x="1405" y="1731" text-anchor="middle" class="t s"><tspan x="1405">验证产品的</tspan><tspan x="1405" dy="34">有效性、适配性</tspan><tspan x="1405" dy="34">与可用性</tspan></text>
+  <path d="M1405 1825 V1948" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="1260" y="1958" width="290" height="130" class="goal"/>
+  <text x="1405" y="2014" text-anchor="middle" class="t s"><tspan x="1405">凝练研究结论，</tspan><tspan x="1405" dy="34">提出后续方向</tspan></text>
+
+  <text x="800" y="2122" text-anchor="middle" class="t s">研究主线：需求驱动 → 结构创新 → 模块整合 → 交互实现 → 情境验证</text>
+</svg>

@@ -1,0 +1,56 @@
+% Zhejiang University of Technology master's-thesis layout layer.
+% Reconstructed from the supplied 2019 graduate-thesis format specification.
+\usepackage{fontspec}
+\usepackage{amsmath,amssymb,bm}
+\usepackage{graphicx}
+\usepackage{booktabs,tabularx,array,longtable}
+\usepackage{caption}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{pdfpages}
+\usepackage[hidelinks,bookmarksnumbered=true]{hyperref}
+\usepackage[nameinlink,noabbrev]{cleveref}
+
+% Source specification: top/bottom 2.54 cm; left/right 3.17 cm.
+\geometry{top=2.54cm,bottom=2.54cm,left=3.17cm,right=3.17cm,headheight=15pt,headsep=0.7cm,footskip=1.2cm}
+\setstretch{1.25}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{3em}
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1.25}
+\graphicspath{{figures/}}
+
+% Body and heading hierarchy: 小四 body; 三号 chapter; 四号 section; 小四 subsection.
+\ctexset{
+  chapter={format=\centering\heiti\zihao{3},name={第,章},number=\chinese{chapter},
+    beforeskip=0pt,afterskip=24pt,pagestyle=thesis},
+  section={format=\heiti\zihao{4},beforeskip=24pt,afterskip=12pt},
+  subsection={format=\heiti\zihao{-4},beforeskip=12pt,afterskip=6pt}
+}
+\AtBeginDocument{\zihao{-4}}
+
+\captionsetup{font={small,stretch=1.25},labelfont=bf,labelsep=quad}
+\renewcommand{\contentsname}{目\quad 录}
+\renewcommand{\listfigurename}{插图清单}
+\renewcommand{\listtablename}{表格清单}
+\renewcommand{\bibname}{参考文献}
+
+\fancypagestyle{thesis}{%
+  \fancyhf{}
+  \fancyhead[C]{\zihao{5}\songti\ifodd\value{page}\thesistitle\else 浙江工业大学硕士学位论文\fi}
+  \fancyfoot[C]{\thepage}
+  \renewcommand{\headrulewidth}{0.4pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+\fancypagestyle{plain}{%
+  \fancyhf{}
+  \fancyhead[C]{\zihao{5}\songti\ifodd\value{page}\thesistitle\else 浙江工业大学硕士学位论文\fi}
+  \fancyfoot[C]{\thepage}
+  \renewcommand{\headrulewidth}{0.4pt}
+}
+
+\newcommand{\cnkeywords}[1]{\par\vspace{1em}\noindent\textbf{关键词：}#1}
+\newcommand{\enkeywords}[1]{\par\vspace{1em}\noindent\textbf{KEY WORDS:} #1}

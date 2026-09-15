@@ -1,0 +1,32 @@
+# Working and generated directories
+tmp/
+output/
+结构论文参考/
+
+# LaTeX intermediate files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.xdv
+
+# Python and Node caches
+__pycache__/
+*.py[cod]
+node_modules/
+
+# Office temporary files
+~$*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Legacy framework previews
+/研究框架图.png
+/research-framework-preview.html

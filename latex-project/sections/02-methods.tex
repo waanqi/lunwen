@@ -1,0 +1,19 @@
+\chapter{Kresling 折纸结构理论建模}
+
+\section{几何模型}
+
+设折纸单元的等效轴向位移为 $u$，参考高度为 $H_0$，则工程应变可写为
+\begin{equation}
+  \varepsilon = \frac{u}{H_0}.
+  \label{eq:strain}
+\end{equation}
+为展示真正的 \LaTeX{} 数学代码，示例模型的总势能定义为
+\begin{equation}
+  \Pi(q)=\frac{1}{2}k_1q^2+\frac{1}{4}k_3q^4-Fq,
+  \label{eq:potential}
+\end{equation}
+其中 $q$ 为广义位移，$k_1$ 与 $k_3$ 分别为线性和非线性刚度系数。
+
+\section{力学模型与求解方法}
+
+求解流程可在此说明几何假设、材料参数、边界条件和收敛准则。源 Word 模板中未检测到原生公式或 MathType/OLE 对象，因此 \cref{eq:strain,eq:potential} 仅用于验证公式编号、行距和单栏版心。
